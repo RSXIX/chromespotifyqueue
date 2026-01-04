@@ -1,0 +1,4 @@
+export const CONFIG = {
+  SPOTIFY_CLIENT_ID: "X",
+  DEFAULT_PLAYLIST_ID: "Y"
+};

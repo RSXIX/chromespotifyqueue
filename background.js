@@ -1,3 +1,7 @@
+import { CONFIG } from "./config.js";
+
+const { SPOTIFY_CLIENT_ID, DEFAULT_PLAYLIST_ID } = CONFIG;
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "add-to-playlist",
